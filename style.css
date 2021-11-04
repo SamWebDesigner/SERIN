@@ -1,0 +1,123 @@
+body{
+    background-image: url(./voyageSerin.jpg) ;
+   background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Logo img{
+    width: 150px;
+    height: 150px;
+}
+.Logo h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.Store{
+    display: flex;
+    align-items: center;
+}
+.Store :first-child{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.Store :nth-child(2){
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.contenu{
+    display: flex;
+    justify-content: space-between;
+  
+}
+p{
+    display: flex;
+    color: whitesmoke;
+    font-size: 14px;
+    text-align: left;
+    margin-right: 100px;
+    border-radius: 5px;
+    border: solid 2px whitesmoke;
+    padding: 20px;
+}
+.contenir{
+    background-color:#009DDC ;
+    display: flex;
+    align-items: center;
+ margin-top: 100px;
+  height: 200px;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.emailBox input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.messageBox textarea{
+  
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+     background-color: #10D6F9;
+    color: whitesmoke;
+}
+form{
+    margin-left: 30px;
+}
+input{
+    border-radius: 5px;
+    background-color: #009DDC;
+    color: whitesmoke;
+}
+.Contact p{
+    display: flex;
+    align-items: center;
+ 
+    width: 150px;
+    height: 10px;
+    padding: 5px;
+}
+.Contact h2{
+    color: whitesmoke;
+}
+footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+footer img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2 img{
+width: 50px;
+height: 50px;
+}
+.logo2 h2{
+    color: whitesmoke;
+}
+.partenaire img{
+    width: 400px;
+    height: 400px;
+}
